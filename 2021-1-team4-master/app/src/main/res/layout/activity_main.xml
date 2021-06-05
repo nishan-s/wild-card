@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join Lobby"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="309dp" />
+
+    <Button
+        android:id="@+id/create_lobby_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Lobby"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="373dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="107dp"
+        android:layout_height="54dp"
+        android:text="Gimbo"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="156dp" />
+
+    <Button
+        android:id="@+id/change_options_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Options"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="434dp" />
+</android.support.constraint.ConstraintLayout>
